@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Flags of the World</string>
+    <string name="description">1.4 RELEASE NOTES: Added these notes, allow install / move to SD card for 2.2 and greater. Fixed force close when selecting Heard Island and McDonald Islands.</string>
+    <string name="show_keyboard">Show Keyboard</string>
+    
+    <string-array name="country_info">
+        <item>Afghanistan:AF:Kabul:32738000:.af:AFN:Afghani:93</item>
+        <item>Albania:AL:Tirana:3619000:.al:ALL:Lek:355</item>
+        <item>Algeria:AG:Algiers:33739000:.dz:DZD:Dinar:213</item>
+        <item>American Samoa:AQ:Pago Pago:57881:.as:USD:Dollar:+1-684</item>
+        <item>Andorra:AN:Andorra la Vella:72000:.ad:EUR:Euro:376</item>
+        <item>Angola:AO:Luanda:12531000:.ao:AOA:Kwanza:244</item>
+        <item>Anguilla:AV:The Valley:13254:.ai:XCD:Dollar:+1-264</item>
+        <item>Antarctica:AY:N/A:0:.aq:N/A:N/A:N/A</item>
+        <item>Antigua and Barbuda:AC:St. John\'s:69000:.ag:XCD:Dollar:+1-268</item>
+        <item>Argentina:AR:Buenos Aires:40677000:.ar:ARS:Peso:54</item>
+        <item>Armenia:AM:Yerevan:2968000:.am:AMD:Dram:374</item>
+        <item>Aruba:AA:Oranjestad:71566:.aw:AWG:Guilder:297</item>
+        <item>Australia:AS:Canberra:20600000:.au:AUD:Dollar:61</item>
+        <item>Austria:AU:Vienna:8205000:.at:EUR:Euro:43</item>
+        <item>Azerbaijan:AJ:Baku:8177000:.az:AZN:Manat:994</item>
+        <item>Bahamas:BF:Nassau:301790:.bs:BSD:Dollar:+1-242</item>
+        <item>Bahrain:BA:Manama:718000:.bh:BHD:Dinar:973</item>
+        <item>Bangladesh:BG:Dhaka:153546000:.bd:BDT:Taka:880</item>
+        <item>Barbados:BB:Bridgetown:281000:.bb:BBD:Dollar:+1-246</item>
+        <item>Belarus:BO:Minsk:9685000:.by:BYR:Ruble:375</item>
+        <item>Belgium:BE:Brussels:10403000:.be:EUR:Euro:32</item>
+        <item>Belize:BH:Belmopan:301000:.bz:BZD:Dollar:501</item>
+        <item>Benin:BN:Porto-Novo:8294000:.bj:XOF:Franc:229</item>
+        <item>Bermuda:BD:Hamilton:65365:.bm:BMD:Dollar:+1-441</item>
+        <item>Bhutan:BT:Thimphu:2376000:.bt:BTN:Ngultrum:975</item>
+        <item>Bolivia:BL:La Paz:9247000:.bo:BOB:Boliviano:591</item>
+        <item>Bosnia and Herzegovina:BK:Sarajevo:4590000:.ba:BAM:Marka:387</item>
+        <item>Botswana:BC:Gaborone:1842000:.bw:BWP:Pula:267</item>
+        <item>Bouvet Island:BV:N/A:0:.bv:NOK:Krone:N/A</item>
+        <item>Brazil:BR:Brasília:191908000:.br:BRL:Real:55</item>
+        <item>British Indian Ocean Territory:IO:Diego Garcia:0:.io:USD:Dollar:246</item>
+        <item>British Virgin Islands:VI:Road Town:21730:.vg:USD:Dollar:+1-284</item>
+        <item>Brunei:BX:Bandar Seri Begawan:381000:.bn:BND:Dollar:673</item>
+        <item>Bulgaria:BU:Sofia:7262000:.bg:BGN:Lev:359</item>
+        <item>Burkina Faso:UV:Ouagadougou:14761000:.bf:XOF:Franc:226</item>
+        <item>Burundi:BY:Bujumbura:8691000:.bi:BIF:Franc:257</item>
+        <item>Cambodia:CB:Phnom Penh:14241000:.kh:KHR:Riels:855</item>
+        <item>Cameroon:CM:Yaoundé:18467000:.cm:XAF:Franc:237</item>
+        <item>Canada:CA:Ottawa:33679000:.ca:CAD:Dollar:1</item>
+        <item>Cape Verde:CV:Praia:426000:.cv:CVE:Escudo:238</item>
+        <item>Cayman Islands:CJ:George Town:44270:.ky:KYD:Dollar:+1-345</item>
+        <item>Central African Republic:CT:Bangui:4434000:.cf:XAF:Franc:236</item>
+        <item>Chad:CD:N\'Djamena:10111000:.td:XAF:Franc:235</item>
+        <item>Chile:CI:Santiago:16432000:.cl:CLP:Peso:56</item>
+        <item>China:CH:Beijing:1330044000:.cn:CNY:Yuan Renminbi:86</item>
+        <item>Christmas Island:KT:Flying Fish Cove:361:.cx:AUD:Dollar:61</item>
+        <item>Cocos Islands:CK:West Island:628:.cc:AUD:Dollar:61</item>
+        <item>Colombia:CO:Bogotá:45013000:.co:COP:Peso:57</item>
+        <item>Comoros:CN:Moroni:731000:.km:KMF:Franc:269</item>
+        <item>Cook Islands:CW:Avarua:21388:.ck:NZD:Dollar:682</item>
+        <item>Costa Rica:CS:San José:4191000:.cr:CRC:Colon:506</item>
+        <item>Croatia:HR:Zagreb:4491000:.hr:HRK:Kuna:385</item>
+        <item>Cuba:CU:Havana:11423000:.cu:CUP:Peso:53</item>
+        <item>Cyprus:CY:Nicosia:792000:.cy:EUR:Euro:357</item>
+        <item>Czech Republic:EZ:Prague:10220000:.cz:CZK:Koruna:420</item>
+        <item>Democratic Republic of the Congo:CG:Kinshasa:60085004:.cd:CDF:Franc:243</item>
+        <item>Denmark:DA:Copenhagen:5484000:.dk:DKK:Krone:45</item>
+        <item>Djibouti:DJ:Djibouti:506000:.dj:DJF:Franc:253</item>
+        <item>Dominica:DO:Roseau:72000:.dm:XCD:Dollar:+1-767</item>
+        <item>Dominican Republic:DR:Santo Domingo:9507000:.do:DOP:Peso:+1-809 and 1-829</item>
+        <item>East Timor:TT:Dili:1107000:.tp:USD:Dollar:670</item>
+        <item>Ecuador:EC:Quito:13927000:.ec:USD:Dollar:593</item>
+        <item>Egypt:EG:Cairo:81713000:.eg:EGP:Pound:20</item>
+        <item>El Salvador:ES:San Salvador:7066000:.sv:USD:Dollar:503</item>
+        <item>Equatorial Guinea:EK:Malabo:562000:.gq:XAF:Franc:240</item>
+        <item>Eritrea:ER:Asmara:5028000:.er:ERN:Nakfa:291</item>
+        <item>Estonia:EN:Tallinn:1307000:.ee:EEK:Kroon:372</item>
+        <item>Ethiopia:ET:Addis Ababa:78254000:.et:ETB:Birr:251</item>
+        <item>Falkland Islands:FK:Stanley:2638:.fk:FKP:Pound:500</item>
+        <item>Faroe Islands:FO:Tórshavn:48228:.fo:DKK:Krone:298</item>
+        <item>Fiji:FJ:Suva:931000:.fj:FJD:Dollar:679</item>
+        <item>Finland:FI:Helsinki:5244000:.fi:EUR:Euro:358</item>
+        <item>France:FR:Paris:64094000:.fr:EUR:Euro:33</item>
+        <item>French Guiana:FG:Cayenne:195506:.gf:EUR:Euro:594</item>
+        <item>French Polynesia:FP:Papeete:270485:.pf:XPF:Franc:689</item>
+        <item>French Southern Territories:FS:Martin-de-Viviès:0:.tf:EUR:Euro:N/A</item>
+        <item>Gabon:GB:Libreville:1484000:.ga:XAF:Franc:241</item>
+        <item>Gambia:GA:Banjul:1593256:.gm:GMD:Dalasi:220</item>
+        <item>Georgia:GG:Tbilisi:4630000:.ge:GEL:Lari:995</item>
+        <item>Germany:GM:Berlin:82369000:.de:EUR:Euro:49</item>
+        <item>Ghana:GH:Accra:23382000:.gh:GHS:Cedi:233</item>
+        <item>Gibraltar:GI:Gibraltar:27884:.gi:GIP:Pound:350</item>
+        <item>Greece:GR:Athens:10722000:.gr:EUR:Euro:30</item>
+        <item>Greenland:GL:Nuuk:56375:.gl:DKK:Krone:299</item>
+        <item>Grenada:GJ:St. George\'s:90000:.gd:XCD:Dollar:+1-473</item>
+        <item>Guadeloupe:GP:Basse-Terre:443000:.gp:EUR:Euro:590</item>
+        <item>Guam:GQ:Hagåtña:168564:.gu:USD:Dollar:+1-671</item>
+        <item>Guatemala:GT:Guatemala City:13002000:.gt:GTQ:Quetzal:502</item>
+        <item>Guernsey:GK:St Peter Port:65228:.gg:GBP:Pound:+44-1481</item>
+        <item>Guinea-Bissau:PU:Bissau:1503000:.gw:XOF:Franc:245</item>
+        <item>Guinea:GV:Conakry:10211000:.gn:GNF:Franc:224</item>
+        <item>Guyana:GY:Georgetown:770000:.gy:GYD:Dollar:592</item>
+        <item>Haiti:HA:Port-au-Prince:8924000:.ht:HTG:Gourde:509</item>
+        <item>Heard Island and McDonald Islands:HM:N/A:0:.hm:AUD:Dollar:N/A</item>
+        <item>Honduras:HO:Tegucigalpa:7639000:.hn:HNL:Lempira:504</item>
+        <item>Hong Kong:HK:Hong Kong:6898686:.hk:HKD:Dollar:852</item>
+        <item>Hungary:HU:Budapest:9930000:.hu:HUF:Forint:36</item>
+        <item>Iceland:IC:Reykjavík:304000:.is:ISK:Krona:354</item>
+        <item>India:IN:New Delhi:1147995000:.in:INR:Rupee:91</item>
+        <item>Indonesia:ID:Jakarta:237512000:.id:IDR:Rupiah:62</item>
+        <item>Iran:IR:Tehran:65875000:.ir:IRR:Rial:98</item>
+        <item>Iraq:IZ:Baghdad:28221000:.iq:IQD:Dinar:964</item>
+        <item>Ireland:EI:Dublin:4156000:.ie:EUR:Euro:353</item>
+        <item>Isle of Man:IM:Douglas, Isle of Man:75049:.im:GBP:Pound:+44-1624</item>
+        <item>Israel:IS:Jerusalem:6500000:.il:ILS:Shekel:972</item>
+        <item>Italy:IT:Rome:58145000:.it:EUR:Euro:39</item>
+        <item>Ivory Coast:IV:Yamoussoukro:18373000:.ci:XOF:Franc:225</item>
+        <item>Jamaica:JM:Kingston:2801000:.jm:JMD:Dollar:+1-876</item>
+        <item>Japan:JA:Tokyo:127288000:.jp:JPY:Yen:81</item>
+        <item>Jersey:JE:Saint Helier:90812:.je:GBP:Pound:+44-1534</item>
+        <item>Jordan:JO:Amman:6198000:.jo:JOD:Dinar:962</item>
+        <item>Kazakhstan:KZ:Astana:15340000:.kz:KZT:Tenge:7</item>
+        <item>Kenya:KE:Nairobi:37953000:.ke:KES:Shilling:254</item>
+        <item>Kiribati:KR:South Tarawa:110000:.ki:AUD:Dollar:686</item>
+        <item>Kosovo:KV:Priština:1800000:N/A:EUR:Euro:N/A</item>
+        <item>Kuwait:KU:Kuwait City:2596000:.kw:KWD:Dinar:965</item>
+        <item>Kyrgyzstan:KG:Bishkek:5356000:.kg:KGS:Som:996</item>
+        <item>Laos:LA:Vientiane:6677000:.la:LAK:Kip:856</item>
+        <item>Latvia:LG:Riga:2245000:.lv:LVL:Lat:371</item>
+        <item>Lebanon:LE:Beirut:3971000:.lb:LBP:Pound:961</item>
+        <item>Lesotho:LT:Maseru:2128000:.ls:LSL:Loti:266</item>
+        <item>Liberia:LI:Monrovia:3334000:.lr:LRD:Dollar:231</item>
+        <item>Libya:LY:Tripolis:6173000:.ly:LYD:Dinar:218</item>
+        <item>Liechtenstein:LS:Vaduz:34000:.li:CHF:Franc:423</item>
+        <item>Lithuania:LH:Vilnius:3565000:.lt:LTL:Litas:370</item>
+        <item>Luxembourg:LU:Luxembourg:486000:.lu:EUR:Euro:352</item>
+        <item>Macao:MC:Macao:449198:.mo:MOP:Pataca:853</item>
+        <item>Macedonia:MK:Skopje:2061000:.mk:MKD:Denar:389</item>
+        <item>Madagascar:MA:Antananarivo:20042000:.mg:MGA:Ariary:261</item>
+        <item>Malawi:MI:Lilongwe:13931000:.mw:MWK:Kwacha:265</item>
+        <item>Malaysia:MY:Kuala Lumpur:25259000:.my:MYR:Ringgit:60</item>
+        <item>Maldives:MV:Malé:379000:.mv:MVR:Rufiyaa:960</item>
+        <item>Mali:ML:Bamako:12324000:.ml:XOF:Franc:223</item>
+        <item>Malta:MT:Valletta:403000:.mt:EUR:Euro:356</item>
+        <item>Marshall Islands:RM:Majuro:11628:.mh:USD:Dollar:692</item>
+        <item>Martinique:MB:Fort-de-France:432900:.mq:EUR:Euro:596</item>
+        <item>Mauritania:MR:Nouakchott:3364000:.mr:MRO:Ouguiya:222</item>
+        <item>Mauritius:MP:Port Louis:1260000:.mu:MUR:Rupee:230</item>
+        <item>Mayotte:MF:Mamoudzou:159042:.yt:EUR:Euro:269</item>
+        <item>Mexico:MX:Mexico City:109955000:.mx:MXN:Peso:52</item>
+        <item>Micronesia:FM:Palikir:108105:.fm:USD:Dollar:691</item>
+        <item>Moldova:MD:Chişinău:4324000:.md:MDL:Leu:373</item>
+        <item>Monaco:MN:Monaco:32000:.mc:EUR:Euro:377</item>
+        <item>Mongolia:MG:Ulan Bator:2996000:.mn:MNT:Tugrik:976</item>
+        <item>Montenegro:MJ:Podgorica:678000:.cs:EUR:Euro:381</item>
+        <item>Montserrat:MH:Plymouth:9341:.ms:XCD:Dollar:+1-664</item>
+        <item>Morocco:MO:Rabat:34272000:.ma:MAD:Dirham:212</item>
+        <item>Mozambique:MZ:Maputo:21284000:.mz:MZN:Meticail:258</item>
+        <item>Myanmar:BM:Yangon:47758000:.mm:MMK:Kyat:95</item>
+        <item>Namibia:WA:Windhoek:2063000:.na:NAD:Dollar:264</item>
+        <item>Nauru:NR:Yaren:13000:.nr:AUD:Dollar:674</item>
+        <item>Nepal:NP:Kathmandu:29519000:.np:NPR:Rupee:977</item>
+        <item>Netherlands Antilles:NT:Willemstad:136197:.an:ANG:Guilder:599</item>
+        <item>Netherlands:NL:Amsterdam:16645000:.nl:EUR:Euro:31</item>
+        <item>New Caledonia:NC:Nouméa:216494:.nc:XPF:Franc:687</item>
+        <item>New Zealand:NZ:Wellington:4154000:.nz:NZD:Dollar:64</item>
+        <item>Nicaragua:NU:Managua:5780000:.ni:NIO:Cordoba:505</item>
+        <item>Nigeria:NI:Abuja:138283000:.ng:NGN:Naira:234</item>
+        <item>Niger:NG:Niamey:13272000:.ne:XOF:Franc:227</item>
+        <item>Niue:NE:Alofi:2166:.nu:NZD:Dollar:683</item>
+        <item>Norfolk Island:NF:Kingston:1828:.nf:AUD:Dollar:672</item>
+        <item>Northern Mariana Islands:CQ:Saipan:80362:.mp:USD:Dollar:+1-670</item>
+        <item>North Korea:KN:Pyongyang:22912177:.kp:KPW:Won:850</item>
+        <item>Norway:NO:Oslo:4644000:.no:NOK:Krone:47</item>
+        <item>Oman:MU:Muscat:3309000:.om:OMR:Rial:968</item>
+        <item>Pakistan:PK:Islamabad:167762000:.pk:PKR:Rupee:92</item>
+        <item>Palau:PS:Koror:20303:.pw:USD:Dollar:680</item>
+        <item>Palestinian Territory:WE:East Jerusalem:3800000:.ps:ILS:Shekel:970</item>
+        <item>Panama:PM:Panama City:3292000:.pa:PAB:Balboa:507</item>
+        <item>Papua New Guinea:PP:Port Moresby:5921000:.pg:PGK:Kina:675</item>
+        <item>Paraguay:PA:Asunción:6831000:.py:PYG:Guarani:595</item>
+        <item>Peru:PE:Lima:29041000:.pe:PEN:Sol:51</item>
+        <item>Philippines:RP:Manila:92681000:.ph:PHP:Peso:63</item>
+        <item>Pitcairn:PC:Adamstown:46:.pn:NZD:Dollar:N/A</item>
+        <item>Poland:PL:Warsaw:38500000:.pl:PLN:Zloty:48</item>
+        <item>Portugal:PO:Lisbon:10676000:.pt:EUR:Euro:351</item>
+        <item>Puerto Rico:RQ:San Juan:3916632:.pr:USD:Dollar:+1-787 and 1-939</item>
+        <item>Qatar:QA:Doha:928000:.qa:QAR:Rial:974</item>
+        <item>Republic of the Congo:CF:Brazzaville:3039126:.cg:XAF:Franc:242</item>
+        <item>Reunion:RE:Saint-Denis:776948:.re:EUR:Euro:262</item>
+        <item>Romania:RO:Bucharest:22246000:.ro:RON:Leu:40</item>
+        <item>Russia:RS:Moscow:140702000:.ru:RUB:Ruble:7</item>
+        <item>Rwanda:RW:Kigali:10186000:.rw:RWF:Franc:250</item>
+        <item>Saint Barthélemy:TB:Gustavia:8450:.gp:EUR:Euro:590</item>
+        <item>Saint Helena:SH:Jamestown:7460:.sh:SHP:Pound:290</item>
+        <item>Saint Kitts and Nevis:SC:Basseterre:39000:.kn:XCD:Dollar:+1-869</item>
+        <item>Saint Lucia:ST:Castries:172000:.lc:XCD:Dollar:+1-758</item>
+        <item>Saint Martin:RN:Marigot:33100:.gp:EUR:Euro:590</item>
+        <item>Saint Pierre and Miquelon:SB:Saint-Pierre:7012:.pm:EUR:Euro:508</item>
+        <item>Saint Vincent and the Grenadines:VC:Kingstown:117534:.vc:XCD:Dollar:+1-784</item>
+        <item>Samoa:WS:Apia:217000:.ws:WST:Tala:685</item>
+        <item>San Marino:SM:San Marino:29000:.sm:EUR:Euro:378</item>
+        <item>Sao Tome and Principe:TP:São Tomé:205000:.st:STD:Dobra:239</item>
+        <item>Saudi Arabia:SA:Riyadh:28161000:.sa:SAR:Rial:966</item>
+        <item>Senegal:SG:Dakar:12853000:.sn:XOF:Franc:221</item>
+        <item>Serbia and Montenegro:YI:Belgrade:10829175:.cs:RSD:Dinar:+381</item>
+        <item>Serbia:RB:Belgrade:10159000:.rs:RSD:Dinar:381</item>
+        <item>Seychelles:SE:Victoria:82000:.sc:SCR:Rupee:248</item>
+        <item>Sierra Leone:SL:Freetown:6286000:.sl:SLL:Leone:232</item>
+        <item>Singapore:SN:Singapur:4608000:.sg:SGD:Dollar:65</item>
+        <item>Slovakia:LO:Bratislava:5455000:.sk:EUR:Euro:421</item>
+        <item>Slovenia:SI:Ljubljana:2007000:.si:EUR:Euro:386</item>
+        <item>Solomon Islands:BP:Honiara:581000:.sb:SBD:Dollar:677</item>
+        <item>Somalia:SO:Mogadishu:9379000:.so:SOS:Shilling:252</item>
+        <item>South Africa:SF:Pretoria:43786000:.za:ZAR:Rand:27</item>
+        <item>South Georgia and the South Sandwich Islands:SX:Grytviken:100:.gs:GBP:Pound:N/A</item>
+        <item>South Korea:KS:Seoul:48422644:.kr:KRW:Won:82</item>
+        <item>Spain:SP:Madrid:40491000:.es:EUR:Euro:34</item>
+        <item>Sri Lanka:CE:Colombo:21128000:.lk:LKR:Rupee:94</item>
+        <item>Sudan:SU:Khartoum:40218000:.sd:SDG:Dinar:249</item>
+        <item>Suriname:NS:Paramaribo:475000:.sr:SRD:Dollar:597</item>
+        <item>Svalbard and Jan Mayen:SV:Longyearbyen:2265:.sj:NOK:Krone:47</item>
+        <item>Swaziland:WZ:Mbabane:1128000:.sz:SZL:Lilangeni:268</item>
+        <item>Sweden:SW:Stockholm:9045000:.se:SEK:Krona:46</item>
+        <item>Switzerland:SZ:Berne:7581000:.ch:CHF:Franc:41</item>
+        <item>Syria:SY:Damascus:19747000:.sy:SYP:Pound:963</item>
+        <item>Taiwan:TW:Taipei:22894384:.tw:TWD:Dollar:886</item>
+        <item>Tajikistan:TI:Dushanbe:7211000:.tj:TJS:Somoni:992</item>
+        <item>Tanzania:TZ:Dodoma:40213000:.tz:TZS:Shilling:255</item>
+        <item>Thailand:TH:Bangkok:65493000:.th:THB:Baht:66</item>
+        <item>Togo:TO:Lomé:5858000:.tg:XOF:Franc:228</item>
+        <item>Tokelau:TL:N/A:1405:.tk:NZD:Dollar:690</item>
+        <item>Tonga:TN:Nuku\'alofa:118000:.to:TOP:Pa\'anga:676</item>
+        <item>Trinidad and Tobago:TD:Port of Spain:1047000:.tt:TTD:Dollar:+1-868</item>
+        <item>Tunisia:TS:Tunis:10378000:.tn:TND:Dinar:216</item>
+        <item>Turkey:TU:Ankara:71892000:.tr:TRY:Lira:90</item>
+        <item>Turkmenistan:TX:Ashgabat:5179000:.tm:TMT:Manat:993</item>
+        <item>Turks and Caicos Islands:TK:Cockburn Town:20556:.tc:USD:Dollar:+1-649</item>
+        <item>Tuvalu:TV:Vaiaku:12000:.tv:AUD:Dollar:688</item>
+        <item>Uganda:UG:Kampala:31367000:.ug:UGX:Shilling:256</item>
+        <item>Ukraine:UP:Kiev:45994000:.ua:UAH:Hryvnia:380</item>
+        <item>United Arab Emirates:AE:Abu Dhabi:4621000:.ae:AED:Dirham:971</item>
+        <item>United Kingdom:UK:London:60943000:.uk:GBP:Pound:44</item>
+        <item>United States:US:Washington:303824000:.us:USD:Dollar:1</item>
+        <item>Uruguay:UY:Montevideo:3477000:.uy:UYU:Peso:598</item>
+        <item>U.S. Virgin Islands:VQ:Charlotte Amalie:108708:.vi:USD:Dollar:+1-340</item>
+        <item>Uzbekistan:UZ:Tashkent:28268000:.uz:UZS:Som:998</item>
+        <item>Vanuatu:NH:Port Vila:215000:.vu:VUV:Vatu:678</item>
+        <item>Vatican:VT:Vatican City:921:.va:EUR:Euro:379</item>
+        <item>Venezuela:VE:Caracas:26414000:.ve:VEF:Bolivar:58</item>
+        <item>Vietnam:VM:Hanoi:86116000:.vn:VND:Dong:84</item>
+        <item>Wallis and Futuna:WF:Matâ\'Utu:16025:.wf:XPF:Franc:681</item>
+        <item>Western Sahara:WI:El-Aaiun:273008:.eh:MAD:Dirham:212</item>
+        <item>Yemen:YM:San‘a’:23013000:.ye:YER:Rial:967</item>
+        <item>Zambia:ZA:Lusaka:11669000:.zm:ZMK:Kwacha:260</item>
+        <item>Zimbabwe:ZI:Harare:12382000:.zw:ZWL:Dollar:263</item>
+    </string-array>
+    
+    <string-array name="country_array">
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>American Samoa</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antarctica</item>
+        <item>Antigua and Barbuda</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahamas</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermuda</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Botswana</item>
+        <item>Bouvet Island</item>
+        <item>Brazil</item>
+        <item>British Indian Ocean Territory</item>
+        <item>British Virgin Islands</item>
+        <item>Brunei</item>
+        <item>Bulgaria</item>
+        <item>Burkina Faso</item>
+        <item>Burundi</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Cape Verde</item>
+        <item>Cayman Islands</item>
+        <item>Central African Republic</item>
+        <item>Chad</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Christmas Island</item>
+        <item>Cocos Islands</item>
+        <item>Colombia</item>
+        <item>Comoros</item>
+        <item>Cook Islands</item>
+        <item>Costa Rica</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Cyprus</item>
+        <item>Czech Republic</item>
+        <item>Democratic Republic of the Congo</item>
+        <item>Denmark</item>
+        <item>Djibouti</item>
+        <item>Dominica</item>
+        <item>Dominican Republic</item>
+        <item>East Timor</item>
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>Equatorial Guinea</item>
+        <item>Eritrea</item>
+        <item>Estonia</item>
+        <item>Ethiopia</item>
+        <item>Falkland Islands</item>
+        <item>Faroe Islands</item>
+        <item>Fiji</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>French Guiana</item>
+        <item>French Polynesia</item>
+        <item>French Southern Territories</item>
+        <item>Gabon</item>
+        <item>Gambia</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Greece</item>
+        <item>Greenland</item>
+        <item>Grenada</item>
+        <item>Guadeloupe</item>
+        <item>Guam</item>
+        <item>Guatemala</item>
+        <item>Guernsey</item>
+        <item>Guinea-Bissau</item>
+        <item>Guinea</item>
+        <item>Guyana</item>
+        <item>Haiti</item>
+        <item>Heard Island and McDonald Islands</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Ireland</item>
+        <item>Isle of Man</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Ivory Coast</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jersey</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>Kiribati</item>
+        <item>Kosovo</item>
+        <item>Kuwait</item>
+        <item>Kyrgyzstan</item>
+        <item>Laos</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libya</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Macao</item>
+        <item>Macedonia</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Maldives</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Marshall Islands</item>
+        <item>Martinique</item>
+        <item>Mauritania</item>
+        <item>Mauritius</item>
+        <item>Mayotte</item>
+        <item>Mexico</item>
+        <item>Micronesia</item>
+        <item>Moldova</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Montenegro</item>
+        <item>Montserrat</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Myanmar</item>
+        <item>Namibia</item>
+        <item>Nauru</item>
+        <item>Nepal</item>
+        <item>Netherlands Antilles</item>
+        <item>Netherlands</item>
+        <item>New Caledonia</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Nigeria</item>
+        <item>Niger</item>
+        <item>Niue</item>
+        <item>Norfolk Island</item>
+        <item>Northern Mariana Islands</item>
+        <item>North Korea</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Pakistan</item>
+        <item>Palau</item>
+        <item>Palestinian Territory</item>
+        <item>Panama</item>
+        <item>Papua New Guinea</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Pitcairn</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Puerto Rico</item>
+        <item>Qatar</item>
+        <item>Republic of the Congo</item>
+        <item>Reunion</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>Rwanda</item>
+        <item>Saint Barthélemy</item>
+        <item>Saint Helena</item>
+        <item>Saint Kitts and Nevis</item>
+        <item>Saint Lucia</item>
+        <item>Saint Martin</item>
+        <item>Saint Pierre and Miquelon</item>
+        <item>Saint Vincent and the Grenadines</item>
+        <item>Samoa</item>
+        <item>San Marino</item>
+        <item>Sao Tome and Principe</item>
+        <item>Saudi Arabia</item>
+        <item>Senegal</item>
+        <item>Serbia and Montenegro</item>
+        <item>Serbia</item>
+        <item>Seychelles</item>
+        <item>Sierra Leone</item>
+        <item>Singapore</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Solomon Islands</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>South Georgia and the South Sandwich Islands</item>
+        <item>South Korea</item>
+        <item>Spain</item>
+        <item>Sri Lanka</item>
+        <item>Sudan</item>
+        <item>Suriname</item>
+        <item>Svalbard and Jan Mayen</item>
+        <item>Swaziland</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syria</item>
+        <item>Taiwan</item>
+        <item>Tajikistan</item>
+        <item>Tanzania</item>
+        <item>Thailand</item>
+        <item>Togo</item>
+        <item>Tokelau</item>
+        <item>Tonga</item>
+        <item>Trinidad and Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Turkmenistan</item>
+        <item>Turks and Caicos Islands</item>
+        <item>Tuvalu</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+        <item>Uruguay</item>
+        <item>U.S. Virgin Islands</item>
+        <item>Uzbekistan</item>
+        <item>Vanuatu</item>
+        <item>Vatican</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Wallis and Futuna</item>
+        <item>Western Sahara</item>
+        <item>Yemen</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+</resources>
