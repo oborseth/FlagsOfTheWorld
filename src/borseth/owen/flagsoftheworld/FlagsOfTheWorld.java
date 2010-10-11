@@ -103,8 +103,11 @@ public class FlagsOfTheWorld extends ListActivity
 	        	ImageView flagImage = (ImageView)d.findViewById(R.id.flagImage);
 	        	flagImage.setImageResource(flagResID);
 	        	
-	        	ImageView mapImage = (ImageView)d.findViewById(R.id.mapImage);
-	        	mapImage.setImageResource(mapResID);
+	        	if(mapResID > 0)
+	        	{
+		        	ImageView mapImage = (ImageView)d.findViewById(R.id.mapImage);
+		        	mapImage.setImageResource(mapResID);
+	        	}
 	        	
 	        	LayoutParams params = d.getWindow().getAttributes();
 	        	params.height = LayoutParams.FILL_PARENT;
