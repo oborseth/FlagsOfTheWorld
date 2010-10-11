@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Flags of the World</string>
-    <string name="description">1.4 RELEASE NOTES: Added these notes, allow install / move to SD card for 2.2 and greater. Fixed force close when selecting Heard Island and McDonald Islands.</string>
+    <string name="description">1.5 RELEASE NOTES: Removed \"Country\" from list, added country map.</string>
     <string name="show_keyboard">Show Keyboard</string>
     
     <string-array name="country_info">

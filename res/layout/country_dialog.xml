@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/ScrollView01" 
+  android:layout_height="wrap_content" 
+  android:layout_width="fill_parent" >
+  <RelativeLayout
+   	android:layout_width="fill_parent"
+   	android:layout_height="wrap_content"
+   	android:padding="10dp">
+		<ImageView
+	   	android:id="@+id/flagImage"
+	   	android:paddingBottom="10dp"
+	   	android:layout_width="wrap_content"
+	   	android:layout_height="wrap_content"/>
+
+	    <TextView
+	  	android:id="@+id/capital_label"
+	  	android:paddingRight="5dp"
+	  	android:textStyle="bold"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	android:layout_below="@id/flagImage"
+	  	android:text="Capital:"/>
+	  	<TextView
+	  	android:id="@+id/capital"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	android:layout_below="@id/flagImage"
+	  	android:layout_toRightOf="@id/capital_label"
+	  	android:text=""/>
+
+	    <TextView
+	  	android:id="@+id/population_label"
+	  	android:paddingRight="5dp"
+	  	android:textStyle="bold"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	android:layout_below="@id/capital_label"
+	  	android:text="Population:"/>
+	  	<TextView
+	  	android:id="@+id/population"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	android:layout_below="@id/capital_label"
+	  	android:layout_toRightOf="@id/population_label"
+	  	android:text=""/>
+
+	    <TextView
+	  	android:id="@+id/currency_label"
+	  	android:paddingRight="5dp"
+	  	android:textStyle="bold"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	android:layout_below="@id/population_label"
+	  	android:text="Currency:"/>
+	  	<TextView
+	  	android:id="@+id/currency"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	android:layout_below="@id/population_label"
+	  	android:layout_toRightOf="@id/currency_label"
+	  	android:text=""/>
+
+	    <TextView
+	  	android:id="@+id/calling_label"
+	  	android:paddingRight="5dp"
+	  	android:textStyle="bold"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	android:layout_below="@id/currency_label"
+	  	android:text="Calling Code:"/>
+	  	<TextView
+	  	android:id="@+id/calling"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	android:layout_below="@id/currency_label"
+	  	android:layout_toRightOf="@id/calling_label"
+	  	android:text=""/>
+
+	    <TextView
+	  	android:id="@+id/tld_label"
+	  	android:paddingRight="5dp"
+	  	android:textStyle="bold"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	android:layout_below="@id/calling_label"
+	  	android:text="Internet TLD:"/>
+	  	<TextView
+	  	android:id="@+id/tld"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	android:layout_below="@id/calling_label"
+	  	android:layout_toRightOf="@id/tld_label"
+	  	android:text=""/>
+
+		<ImageView
+	   	android:id="@+id/mapImage"
+	   	android:paddingBottom="10dp"
+	   	android:paddingTop="10dp"
+	   	android:layout_width="wrap_content"
+	   	android:layout_height="wrap_content"
+	   	android:layout_below="@id/tld_label" />
+    </RelativeLayout >
+</ScrollView>

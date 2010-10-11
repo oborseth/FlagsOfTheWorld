@@ -1,5 +1,6 @@
 package borseth.owen.flagsoftheworld;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 
 import android.app.Dialog;
@@ -14,30 +15,48 @@ import android.view.ViewGroup.LayoutParams;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
-import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
 public class FlagsOfTheWorld extends ListActivity 
 {	
-    /** Called when the activity is first created. */
+    public HashMap<String, HashMap<String, String>> _countryInfoMap = new HashMap<String, HashMap<String, String>>();
+    public ArrayList <HashMap<String, String>> _countryInfoList = new ArrayList <HashMap<String, String>>();
+
     @Override
     public void onCreate(Bundle savedInstanceState) 
     {
         super.onCreate(savedInstanceState);
         
-        String[] countries = getResources().getStringArray(R.array.country_array);
         String[] countryInfo = getResources().getStringArray(R.array.country_info);
         
-        final HashMap<String, String> countryInfoMap = new HashMap<String, String>();
-        
-        for(int i = 0; i < countries.length; i++)
+        for(int i = 0; i < countryInfo.length; i++)
         {
-        	countryInfoMap.put(countries[i], countryInfo[i]);
+        	HashMap<String, String> tmpMap = new HashMap<String, String>();
+        	String[] countryInfoArray = countryInfo[i].split(":");
+        	
+        	tmpMap.put("countryName", countryInfoArray[0]);
+        	tmpMap.put("fipsCode", countryInfoArray[1].toLowerCase());
+        	tmpMap.put("capital", countryInfoArray[2]);
+        	tmpMap.put("population", countryInfoArray[3]);
+        	tmpMap.put("tld", countryInfoArray[4]);
+        	tmpMap.put("currencyCode", countryInfoArray[5]);
+        	tmpMap.put("currencyName", countryInfoArray[6]);
+        	tmpMap.put("calling", countryInfoArray[7]);
+        	tmpMap.put("currency", countryInfoArray[6]+" ("+countryInfoArray[5]+")");
+        	
+        	String flagDrawableName = countryInfoArray[1].toLowerCase()+"_flag_small";
+        	String mapDrawableName = countryInfoArray[1].toLowerCase()+"_map_small";
+        	
+        	tmpMap.put("flagDrawableName", flagDrawableName);
+        	tmpMap.put("mapDrawableName", mapDrawableName);
+        	
+        	_countryInfoMap.put(countryInfoArray[0], tmpMap);
+        	_countryInfoList.add(tmpMap);
         }
         
-        setListAdapter(new ArrayAdapter<String>(this, R.layout.main, countries));
+        setListAdapter(new CountryListAdapter(this, R.layout.list_item, _countryInfoList));
 
         ListView lv = getListView();
         lv.setTextFilterEnabled(true);
@@ -48,28 +67,27 @@ public class FlagsOfTheWorld extends ListActivity
         	{
         		Context context = view.getContext();
         		
-	        	String countryName = (String)((TextView) view).getText();
-	        	String countryInfo = countryInfoMap.get(countryName);
+        		TextView listCountry = (TextView)view.findViewById(R.id.listCountry);
+	        	String countryName = (String)listCountry.getText();
+	        	HashMap<String, String> countryInfo = _countryInfoMap.get(countryName);
 
-	        	String[] countryInfoArray = countryInfo.split(":");
-	        	// String[] countryInfoArray = StringUtils.splitPreserveAllTokens(countryInfo, ":");
+	        	String fipsCode = countryInfo.get("fipsCode");
+	        	String capital = countryInfo.get("capital");
+	        	String population = countryInfo.get("population");
+	        	String tld = countryInfo.get("tld");
+	        	String currencyCode = countryInfo.get("currencyCode");
+	        	String currencyName = countryInfo.get("currencyName");
+	        	String calling = countryInfo.get("calling");
+	        	String currency = countryInfo.get("currency");
+	        	String flagDrawableName = countryInfo.get("flagDrawableName");
+	        	String mapDrawableName = countryInfo.get("mapDrawableName");
 	        	
-	        	String fipsCode = countryInfoArray[1].toLowerCase();
-	        	String capital = countryInfoArray[2];
-	        	String population = countryInfoArray[3];
-	        	String tld = countryInfoArray[4];
-	        	String currencyCode = countryInfoArray[5];
-	        	String currencyName = countryInfoArray[6];
-	        	String calling = countryInfoArray[7];
-	        	
-	        	String currency = currencyName+" ("+currencyCode+")";
-	        	
-	        	String mDrawableName = fipsCode+"_flag_small";
-	        	int resID = getResources().getIdentifier(mDrawableName , "drawable", getPackageName());
+	        	int flagResID = getResources().getIdentifier(flagDrawableName , "drawable", getPackageName());
+	        	int mapResID = getResources().getIdentifier(mapDrawableName , "drawable", getPackageName());
 	        	
         		Dialog d = new Dialog(context);
         		d.setTitle(countryName);
-        		d.setContentView(R.layout.image);
+        		d.setContentView(R.layout.country_dialog);
         		
         		TextView capitalText = (TextView)d.findViewById(R.id.capital);
         		capitalText.setText(capital);
@@ -82,8 +100,12 @@ public class FlagsOfTheWorld extends ListActivity
         		TextView tldText = (TextView)d.findViewById(R.id.tld);
         		tldText.setText(tld);
         		
-	        	ImageView image = (ImageView)d.findViewById(R.id.image);
-	        	image.setImageResource(resID);
+	        	ImageView flagImage = (ImageView)d.findViewById(R.id.flagImage);
+	        	flagImage.setImageResource(flagResID);
+	        	
+	        	ImageView mapImage = (ImageView)d.findViewById(R.id.mapImage);
+	        	mapImage.setImageResource(mapResID);
+	        	
 	        	LayoutParams params = d.getWindow().getAttributes();
 	        	params.height = LayoutParams.FILL_PARENT;
 	        	params.width = LayoutParams.FILL_PARENT;
